@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="LushAura Night & Party Collection — Shop glamorous party dresses, bold clubwear, and elegant gowns. Find your perfect night-out outfit.">
+    <title>LushAura — Night & Party Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">LushAura</div>
+            <div class="preloader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">LushAura</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collection.html" class="active">Collection</a></li>
+                <li><a href="about.html">The Aura</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="collection.html">Collection</a>
+        <a href="about.html">The Aura</a>
+    </div>
+
+    <!-- ===== COLLECTION HERO ===== -->
+    <section class="collection-hero">
+        <div class="container">
+            <span class="section-label" style="animation: fadeSlideUp 0.8s 0.2s both;">👗 Shop The Look</span>
+            <h1 class="section-title" style="animation: fadeSlideUp 0.8s 0.4s both; margin-bottom:10px;">
+                NIGHT & PARTY <span class="gradient-text">COLLECTION</span>
+            </h1>
+            <div class="gradient-divider" style="animation: fadeSlideUp 0.8s 0.5s both;"></div>
+            <p class="section-subtitle" style="animation: fadeSlideUp 0.8s 0.6s both;">Discover bold pieces crafted for
+                the girls who light up every room.</p>
+        </div>
+    </section>
+
+    <!-- ===== FILTER + GRID ===== -->
+    <section class="section">
+        <div class="container">
+
+            <!-- Filter Tabs -->
+            <div class="filter-tabs reveal">
+                <button class="filter-tab active" data-filter="all">All</button>
+                <button class="filter-tab" data-filter="nightwear">Nightwear</button>
+                <button class="filter-tab" data-filter="partywear">Partywear</button>
+                <button class="filter-tab" data-filter="clubwear">Clubwear</button>
+                <button class="filter-tab" data-filter="gowns">Gowns</button>
+            </div>
+
+            <!-- Collection Grid -->
+            <div class="collection-grid">
+
+                <!-- Card 1 -->
+                <div class="collection-card" data-category="partywear">
+                    <div class="collection-card-image">
+                        <img src="images/product-1.png" alt="Emerald Sequin Mini">
+                        <span class="collection-card-badge">New</span>
+                        <button class="collection-card-wishlist">🤍</button>
+                    </div>
+                    <div class="collection-card-info">
+                        <h3 class="collection-card-name">Emerald Sequin Mini</h3>
+                        <p class="collection-card-desc">Dazzling sequin mini dress with a bold emerald green finish.
+                            Perfect for parties.</p>
+                        <div class="collection-card-footer">
+                            <span class="collection-card-price">$189</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="collection-card" data-category="gowns">
+                    <div class="collection-card-image">
+                        <img src="images/product-2.png" alt="Midnight Noir Gown">
+                        <span class="collection-card-badge">Bestseller</span>
+                        <button class="collection-card-wishlist">🤍</button>
+                    </div>
+                    <div class="collection-card-info">
+                        <h3 class="collection-card-name">Midnight Noir Gown</h3>
+                        <p class="collection-card-desc">Elegant black silk evening gown with gold accents. Sophisticated
+                            and timeless.</p>
+                        <div class="collection-card-footer">
+                            <span class="collection-card-price">$249</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="collection-card" data-category="partywear">
+                    <div class="collection-card-image">
+                        <img src="images/product-3.png" alt="Crimson Blaze Dress">
+                        <span class="collection-card-badge">Hot</span>
+                        <button class="collection-card-wishlist">🤍</button>
+                    </div>
+                    <div class="collection-card-info">
+                        <h3 class="collection-card-name">Crimson Blaze Dress</h3>
+                        <p class="collection-card-desc">Bold red strapless cocktail dress with sparkle details. Make a
+                            statement.</p>
+                        <div class="collection-card-footer">
+                            <span class="collection-card-price">$169</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="collection-card" data-category="clubwear">
+                    <div class="collection-card-image">
+                        <img src="images/product-4.png" alt="Gold Luxe Bodycon">
+                        <span class="collection-card-badge">Trending</span>
+                        <button class="collection-card-wishlist">🤍</button>
+                    </div>
+                    <div class="collection-card-info">
+                        <h3 class="collection-card-name">Gold Luxe Bodycon</h3>
+                        <p class="collection-card-desc">Metallic gold bodycon club dress. Bold, confident, and made to
+                            turn heads.</p>
+                        <div class="collection-card-footer">
+                            <span class="collection-card-price">$199</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="collection-card" data-category="nightwear">
+                    <div class="collection-card-image">
+                        <img src="images/product-5.png" alt="Velvet Dream Slip">
+                        <button class="collection-card-wishlist">🤍</button>
+                    </div>
+                    <div class="collection-card-info">
+                        <h3 class="collection-card-name">Velvet Dream Slip</h3>
+                        <p class="collection-card-desc">Deep purple velvet slip dress with thin straps. Luxuriously soft
+                            nightwear.</p>
+                        <div class="collection-card-footer">
+                            <span class="collection-card-price">$139</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="collection-card" data-category="clubwear">
+                    <div class="collection-card-image">
+                        <img src="images/product-6.png" alt="Silver Storm Set">
+                        <span class="collection-card-badge">New</span>
+                        <button class="collection-card-wishlist">🤍</button>
+                    </div>
+                    <div class="collection-card-info">
+                        <h3 class="collection-card-name">Silver Storm Set</h3>
+                        <p class="collection-card-desc">Shimmering silver two-piece crop top & skirt set. Electrify the
+                            dance floor.</p>
+                        <div class="collection-card-footer">
+                            <span class="collection-card-price">$219</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="collection-card" data-category="gowns">
+                    <div class="collection-card-image">
+                        <img src="images/product-7.png" alt="Rose Goddess Gown">
+                        <button class="collection-card-wishlist">🤍</button>
+                    </div>
+                    <div class="collection-card-info">
+                        <h3 class="collection-card-name">Rose Goddess Gown</h3>
+                        <p class="collection-card-desc">Flowing rose-toned evening gown with dramatic train. Red-carpet
+                            ready.</p>
+                        <div class="collection-card-footer">
+                            <span class="collection-card-price">$289</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="collection-card" data-category="nightwear">
+                    <div class="collection-card-image">
+                        <img src="images/product-8.png" alt="Jade Satin Set">
+                        <span class="collection-card-badge">Exclusive</span>
+                        <button class="collection-card-wishlist">🤍</button>
+                    </div>
+                    <div class="collection-card-info">
+                        <h3 class="collection-card-name">Jade Satin Set</h3>
+                        <p class="collection-card-desc">Luxe satin camisole and shorts set in deep jade. Comfortable
+                            elegance.</p>
+                        <div class="collection-card-footer">
+                            <span class="collection-card-price">$119</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="collection-card" data-category="partywear">
+                    <div class="collection-card-image">
+                        <img src="images/product-9.png" alt="Nova Glitter Dress">
+                        <span class="collection-card-badge">Sale</span>
+                        <button class="collection-card-wishlist">🤍</button>
+                    </div>
+                    <div class="collection-card-info">
+                        <h3 class="collection-card-name">Nova Glitter Dress</h3>
+                        <p class="collection-card-desc">Holographic glitter party dress with asymmetric hem. Born to
+                            shine.</p>
+                        <div class="collection-card-footer">
+                            <span class="collection-card-price">$159</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ANIMATED DIVIDER ===== -->
+    <div class="animated-divider"></div>
+
+    <!-- ===== PROMO BANNER ===== -->
+    <section class="promo-banner">
+        <div class="container">
+            <div class="promo-content">
+                <h2 class="promo-title reveal">FREE SHIPPING ON ORDERS $150+</h2>
+                <p class="promo-subtitle reveal">Shop your favorites — fast, free, and fabulous delivery worldwide.</p>
+                <a href="index.html" class="btn-dark reveal">Back to Home →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">LushAura</div>
+                    <p>Bold night fashion for girls who own the spotlight. Premium party dresses, elegant gowns, and
+                        statement clubwear.</p>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="collection.html">Collection</a></li>
+                        <li><a href="about.html">The Aura</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Party Dresses</a></li>
+                        <li><a href="#">Club Outfits</a></li>
+                        <li><a href="#">Evening Gowns</a></li>
+                        <li><a href="#">Statement Pieces</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 LushAura. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="#" class="footer-social-link" title="Instagram">📸</a>
+                    <a href="#" class="footer-social-link" title="TikTok">🎵</a>
+                    <a href="#" class="footer-social-link" title="Pinterest">📌</a>
+                    <a href="#" class="footer-social-link" title="Twitter">🐦</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="images-data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
